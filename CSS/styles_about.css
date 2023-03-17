@@ -1,0 +1,112 @@
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    main{
+      display: flex;
+    }
+    body{
+      background-color: #A0A7B2;
+    }
+    .middle img{
+      width: 11%;
+      float: left;
+      margin: 10px;
+      border: 7px solid white;
+      border-radius: 35px;
+    }
+    .middle{
+      display:inline;
+      overflow: hidden; 
+     /* white-space: nowrap;*/
+      margin: 20px;
+      width: 70%;
+    }
+
+    .container{
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      border: 15px solid #A0A7B2;
+      border-radius: 35px;
+      width: 100%;
+      margin: 20px auto;
+      background-color: #BD897E;
+    }
+    .containerimg{
+      text-align: center;
+      border: 5px solid #A0A7B2;
+    }
+    .featured{
+      border-radius: 35px;
+      margin: 30px auto;
+      
+      padding: 30px;
+      background-color: #D0AEA2;
+    }
+    header{
+      background-color: #BD897E;
+      border-radius: 25px;
+      text-align: center;
+      font-family: 'Libre Baskerville', serif;
+    }
+    a{
+      font-family: 'Libre Baskerville', serif;
+      color: aliceblue;
+      text-decoration: none;
+      display: block;
+    }
+    .pic{
+      width: 100%;
+      align-content: center;
+      justify-content: center;
+      border-radius: 70%;
+    }
+    .char{
+     
+    }
+    div .bi{
+      position:absolute;
+      text-align: center;
+      display: inline-block;
+      margin: 10px;
+      width: 3%;
+      height: 3%;
+      border: 0px solid white;
+    }
+    div .descr{
+      font-size: 30px;
+      align-content: center;
+      justify-content: center;
+    }
+    div .descr h3{
+      font-family: 'Libre Baskerville', serif;
+    }
+    nav{
+      /*background-color: #95A78D;*/
+      border-radius: 25px;
+    }
+    ul{
+      text-align: center;
+      list-style-type: none;
+    }
+    li .details{
+      display: inline-block;
+      line-height: 2em;
+      border-radius: 15px;
+    }
+    .topbar li{
+      display: inline-block;
+      width: 150px;
+      border: 2px solid white;
+      line-height: 3em;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      border-radius: 15px;   
+    }
+    #footer{
+      background-color: #B0C4DE;
+      color: black;
+      text-align: center; 
+    }
+
